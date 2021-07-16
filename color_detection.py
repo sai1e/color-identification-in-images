@@ -10,10 +10,9 @@ a= askopenfilename(defaultextension=".JPG", filetypes=[("jpg file","*.jpg")])
 img1 = cv2.imread(a)  
 w=662
 h=1000
-img=cv2.resize(img1,(h,w))                                 #shape[1]-->height and shape[0]-->width
+img=cv2.resize(img1,(h,w))                                 
 
-
-#declaring global variables (are used later on)
+#declaring global variables
 clicked = False
 r = g = b = xpos = ypos = 0
 
